@@ -36,35 +36,6 @@ order = [
 	"/projects/w3c-tool.html",
 	"/projects/hanxu.html",	
 	"/projects/tabularasa.html",
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-
-	
-	
-	
-	
-	
-	
-	
-
-	
-	
-	
-	
-
 ]
 links = {}
 for i,l in enumerate(order):
@@ -75,7 +46,7 @@ for i,l in enumerate(order):
 
 @app.route('/')
 def main1():
-    return render_template("main.html")
+    return render_template("index.html")
 
 @app.route('/<path>')
 def main2(path):
