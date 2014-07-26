@@ -3,6 +3,7 @@
 mkdir static
 mkdir projects
 curl http://127.0.0.1:5000/index.html -o index.html
+curl http://127.0.0.1:5000/about.html -o about.html
 curl http://127.0.0.1:5000/projects/report-ui.html -o projects/report-ui.html
 curl http://127.0.0.1:5000/projects/tlor.html -o projects/tlor.html
 curl http://127.0.0.1:5000/projects/welcome.html -o projects/welcome.html
