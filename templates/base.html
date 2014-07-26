@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head >
+		<link rel="shortcut icon" type="image/ico" href="static/bg/favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="/static/css/base.css">
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,900,300italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="/static/css/font-awesome.min.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$(".filtertag").click(function(){
+					var tag = $(this).data("tag");
+					$(".work").hide();
+					$(".tag-" + tag).fadeIn();					
+				});
+			});
+		</script>
+		<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
+	</head>
+
+	<body >
+		<div class="frame900">
+			<div class="header">
+				<a href="/main.html" class="logo"><img src="/static/bg/logo1.png">
+				</a>
+				<ul class="navi"> 
+				  <li><a href="/main.html">Work</a></li>
+				  <li><a href="https://dribbble.com/JietingTinaChen">Dribbble</a></li>
+				  <li><a href="http://jietingchen.tumblr.com/">Blog</a></li>
+				  <li><a href="/about.html">About</a></li>
+				</ul>
+				<div class="socialIcons">
+					<a href="https://dribbble.com/JietingTinaChen"><i class="fa fa-dribbble"></i></a>
+					<a href="http://instagram.com/jietingtinachen"<i class="fa fa-instagram"></i></a>
+					<a href="https://www.linkedin.com/in/jietingtinachen"><i class="fa fa-linkedin"></i></a>
+					<a href="https://github.com/tina-chen"><i class="fa fa-github-alt"></i></a>
+					<a href="http://jietingchen.tumblr.com/"><i class="fa fa-coffee"></i></a>
+					<a href="https://www.flickr.com/photos/jieting_tina_chen/"><i class="fa fa-flickr"></i></a>
+  				</div>
+			</div>
+			
+
+			<div class="content">
+				<div style="clear:both;"></div>
+				{% block content %}
+				{% endblock content %}
+				<div style="clear:both;"></div>
+			</div>
+
+			<div class="footer">
+				© Jieting Tina Chen 2014
+			</div>
+		</div>
+	</body>
+</html>

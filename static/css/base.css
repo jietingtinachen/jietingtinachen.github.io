@@ -1,0 +1,349 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  color: blue; }
+
+/*------------------------------*/
+body {
+  font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, Sans-Serif; }
+
+.frame900 {
+  max-width: 900px;
+  margin: 0 auto;
+  /*(horizatal center align)*/ }
+
+@media (max-width: 900px) {
+  .frame900 {
+    max-width: 90%; } }
+.content {
+  margin-top: 20px; }
+
+.header {
+  height: auto;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px; }
+  .header .logo {
+    height: 50px;
+    line-height: 50px; }
+    .header .logo img {
+      display: inline-block;
+      vertical-align: middle; }
+  .header .navi {
+    position: static;
+    height: 50px;
+    line-height: 39px;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    right: 0px;
+    vertical-align: middle;
+    display: block; }
+  .header .navi li {
+    display: inline-block; }
+  .header .navi li a {
+    height: 50px;
+    line-height: 50px;
+    padding: 8px 4px 8px 10px;
+    text-decoration: none;
+    font-size: 10px;
+    color: #545454;
+    font-weight: 500;
+    text-transform: uppercase; }
+  .header .navi li a:hover {
+    color: red; }
+
+.line {
+  border-top: 1px dotted gray; }
+
+.topTag {
+  height: 30px;
+  width: 100%;
+  widows: 100%;
+  display: inline-block; }
+  @media (max-width: 600px) {
+    .topTag {
+      margin-top: 0px; } }
+
+.topTag li {
+  float: left;
+  list-style-type: none;
+  margin-top: 5px;
+  color: #2f2f2f;
+  padding: 0 9px 0 0;
+  font-style: italic;
+  font-size: 13px; }
+
+.topTag li a {
+  font-size: 13px;
+  font-weight: 100;
+  text-decoration: none;
+  color: #545454;
+  font-style: italic;
+  cursor: pointer; }
+  @media (max-width: 600px) {
+    .topTag li a {
+      display: none; } }
+
+.topTag li a:hover {
+  color: red; }
+
+.socialIcons {
+  vertical-align: middle;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center; }
+  @media (max-width: 600px) {
+    .socialIcons {
+      text-align: center;
+      float: none; } }
+  .socialIcons .fa {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    background: #c0bebe;
+    border-radius: 100%;
+    margin: 0 2px;
+    color: white; }
+  .socialIcons .fa-dribbble {
+    background-color: #CACACA; }
+  .socialIcons .fa-dribbble:hover {
+    background-color: #e55757; }
+  .socialIcons .fa-instagram {
+    background-color: #CACACA; }
+  .socialIcons .fa-instagram:hover {
+    background-color: #e66c13; }
+  .socialIcons .fa-linkedin {
+    background-color: #CACACA; }
+  .socialIcons .fa-linkedin:hover {
+    background-color: #1869a7; }
+  .socialIcons .fa-github-alt {
+    background-color: #CACACA; }
+  .socialIcons .fa-github-alt:hover {
+    background-color: #44b4b5; }
+  .socialIcons .fa-coffee {
+    background-color: #CACACA; }
+  .socialIcons .fa-coffee:hover {
+    background-color: #2689bc; }
+  .socialIcons .fa-flickr {
+    background-color: #CACACA; }
+  .socialIcons .fa-flickr:hover {
+    background-color: #eb3862; }
+
+.socialIcons-about {
+  vertical-align: middle;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px; }
+  @media (max-width: 600px) {
+    .socialIcons-about {
+      text-align: center;
+      float: none; } }
+  .socialIcons-about .fa {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    background: #c0bebe;
+    border-radius: 100%;
+    color: white;
+    margin: 0 2px; }
+  .socialIcons-about .fa-dribbble {
+    background-color: #f37d7d; }
+  .socialIcons-about .fa-dribbble:hover {
+    background-color: #e55757; }
+  .socialIcons-about .fa-instagram {
+    background-color: #f5a062; }
+  .socialIcons-about .fa-instagram:hover {
+    background-color: #e66c13; }
+  .socialIcons-about .fa-linkedin {
+    background-color: #79afd9; }
+  .socialIcons-about .fa-linkedin:hover {
+    background-color: #1869a7; }
+  .socialIcons-about .fa-github-alt {
+    background-color: #73c8c9; }
+  .socialIcons-about .fa-github-alt:hover {
+    background-color: #44b4b5; }
+  .socialIcons-about .fa-coffee {
+    background-color: #67b3db; }
+  .socialIcons-about .fa-coffee:hover {
+    background-color: #2689bc; }
+  .socialIcons-about .fa-flickr {
+    background-color: #f1a2b4; }
+  .socialIcons-about .fa-flickr:hover {
+    background-color: #eb3862; }
+
+.works {
+  text-align: justify; }
+
+.work {
+  width: 32%;
+  height: 286px;
+  display: inline-block;
+  margin-bottom: 14px;
+  vertical-align: bottom; }
+
+.dummywork {
+  display: inline-block;
+  width: 32%; }
+
+.coverImage {
+  display: block;
+  background-color: white;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 235px;
+  border: 1px solid #f3f3f3; }
+
+.coverImage:hover {
+  box-shadow: 0px 313px rgba(255, 0, 92, 0.6) inset; }
+
+@media (max-width: 600px) {
+  .work {
+    width: 45%;
+    height: 210px; }
+
+  .coverImage {
+    height: 160px; } }
+a.projectName {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  color: #5A5A5A;
+  margin-top: 16px;
+  display: inline-block;
+  width: 100%; }
+
+.footer {
+  height: 55px;
+  border-top: 1px dotted gray;
+  padding: 15px 10px 8px 0px;
+  font-size: 13px;
+  font-weight: 300;
+  display: block; }
+
+/*----------project page--------------------*/
+.projectImage {
+  width: 100%;
+  background-color: white;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 0 18px 0;
+  border: 1px solid #f3f3f3; }
+
+.projectName:hover {
+  color: black; }
+
+.goBack {
+  float: left;
+  font-weight: 800;
+  font-size: 12px;
+  color: #a8a8a8;
+  padding-bottom: 15px; }
+
+.goNext {
+  float: right;
+  font-weight: 800;
+  font-size: 12px;
+  color: #a8a8a8;
+  padding-bottom: 15px; }
+
+.project .imagePlace {
+  width: 68%;
+  float: left; }
+  @media (max-width: 600px) {
+    .project .imagePlace {
+      display: block;
+      width: 100%; } }
+  .project .imagePlace p {
+    padding: 0 0 8px 0; }
+  .project .imagePlace .video {
+    margin: 0 0 18px 0; }
+    .project .imagePlace .video iframe {
+      width: 100%;
+      min-height: 400px; }
+.project .description {
+  width: 30%;
+  padding: 0px 0px 8px 0px;
+  color: #2f2f2f;
+  float: right;
+  text-align: left; }
+  @media (max-width: 600px) {
+    .project .description {
+      width: 100%;
+      display: block; } }
+  .project .description h1 {
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0 0 13px 0;
+    color: #474747; }
+  .project .description h2 {
+    font-weight: 400;
+    font-size: 14px;
+    font-style: italic;
+    color: #838383; }
+  .project .description .dottedline {
+    height: 0px;
+    border-top: 1px dotted gray;
+    margin: 20px 0; }
+  .project .description p {
+    font-weight: 300;
+    font-size: 14px;
+    padding: 0 0 10px 0;
+    line-height: 1.3em;
+    color: #6d6d6d;
+    line-height: 1.5em; }

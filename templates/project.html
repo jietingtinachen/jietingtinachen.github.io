@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="project">
+	<div class="description">
+		{% block description %}
+		{% endblock description %}
+	</div>
+	<div class="imagePlace">
+		{% block images %}
+		{% endblock images %}
+		<a class="goBack" href="{{ prev }}"> <--PREVIOUS</a>
+		<a class="goNext" href="{{ next }}"> NEXT--></a>
+	</div>
+</div>
+{% endblock content %}
