@@ -31,7 +31,7 @@ order = [
 	"/projects/heartb.html",
 	"/projects/medusalight.html",
 	"/projects/horizon-lighting-design.html",
-	"/projects/dBn.html",
+	"/projects/dbn.html",
 	"/projects/isshare.html",
 	"/projects/w3c-tool.html",
 	"/projects/hanxu.html",	

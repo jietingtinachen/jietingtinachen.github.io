@@ -27,7 +27,7 @@ curl http://127.0.0.1:5000/projects/snowflake.html -o projects/snowflake.html
 curl http://127.0.0.1:5000/projects/heartb.html -o projects/heartb.html
 curl http://127.0.0.1:5000/projects/medusalight.html -o projects/medusalight.html
 curl http://127.0.0.1:5000/projects/horizon-lighting-design.html -o projects/horizon-lighting-design.html
-curl http://127.0.0.1:5000/projects/dBn.html -o projects/dBn.html
+curl http://127.0.0.1:5000/projects/dbn.html -o projects/dbn.html
 curl http://127.0.0.1:5000/projects/isshare.html -o projects/isshare.html
 curl http://127.0.0.1:5000/projects/w3c-tool.html -o projects/w3c-tool.html
 curl http://127.0.0.1:5000/projects/hanxu.html -o projects/hanxu.html
