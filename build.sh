@@ -32,5 +32,6 @@ curl http://127.0.0.1:5000/projects/isshare.html -o projects/isshare.html
 curl http://127.0.0.1:5000/projects/w3c-tool.html -o projects/w3c-tool.html
 curl http://127.0.0.1:5000/projects/hanxu.html -o projects/hanxu.html
 curl http://127.0.0.1:5000/projects/tabularasa.html -o projects/tabularasa.html
+curl http://127.0.0.1:5000/projects/shapes.html -o projects/shapes.html
 
 cp -R source/static/ static/

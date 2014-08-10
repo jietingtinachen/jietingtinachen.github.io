@@ -36,6 +36,7 @@ order = [
 	"/projects/w3c-tool.html",
 	"/projects/hanxu.html",	
 	"/projects/tabularasa.html",
+	"/projects/shapes.html",
 ]
 links = {}
 for i,l in enumerate(order):
