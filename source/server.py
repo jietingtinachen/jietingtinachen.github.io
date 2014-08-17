@@ -35,6 +35,7 @@ order = [
 	"/projects/isshare.html",
 	"/projects/w3c-tool.html",
 	"/projects/hanxu.html",	
+	"/projects/barkcam.html",
 	"/projects/tabularasa.html",
 	"/projects/shapes.html",
 ]
