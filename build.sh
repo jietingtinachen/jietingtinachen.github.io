@@ -23,6 +23,7 @@ curl http://127.0.0.1:5000/projects/tool.html -o projects/tool.html
 curl http://127.0.0.1:5000/projects/opentag.html -o projects/opentag.html
 curl http://127.0.0.1:5000/projects/emotion.html -o projects/emotion.html
 curl http://127.0.0.1:5000/projects/lemonaid.html -o projects/lemonaid.html
+curl http://127.0.0.1:5000/projects/barkbuddy.html -o projects/barkbuddy.html
 curl http://127.0.0.1:5000/projects/3d2d.html -o projects/3d2d.html
 curl http://127.0.0.1:5000/projects/snowflake.html -o projects/snowflake.html
 curl http://127.0.0.1:5000/projects/heartb.html -o projects/heartb.html
