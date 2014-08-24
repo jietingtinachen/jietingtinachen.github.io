@@ -10,6 +10,7 @@ app = Flask(__name__)
 order = [
 	"/projects/report-ui.html",
 	"/projects/tlor.html",
+	"/projects/careapp.html",
 	"/projects/welcome.html",
 	"/projects/rose.html",
 	"/projects/halloween.html",
