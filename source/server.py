@@ -26,6 +26,7 @@ order = [
 	"/projects/tool.html",
 	"/projects/opentag.html",
 	"/projects/emotion.html",
+	"/projects/nomorenfl.html",
 	"/projects/lemonaid.html",
 	"/projects/barkbuddy.html",
 	"/projects/3d2d.html",
