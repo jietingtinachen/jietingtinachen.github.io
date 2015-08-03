@@ -4,8 +4,14 @@ import flask
 
 from flask import Flask
 from flask import render_template
+import time
 
 app = Flask(__name__)
+
+def cachebust():
+	return str(time.time())
+
+app.add_template_global(cachebust)
 
 order = [
 	"/projects/report-ui.html",
@@ -31,16 +37,18 @@ order = [
 	"/projects/barkbuddy.html",
 	"/projects/3d2d.html",
 	"/projects/snowflake.html",
+	"/projects/barkcam-stickers.html",
 	"/projects/heartb.html",
 	"/projects/medusalight.html",
 	"/projects/horizon-lighting-design.html",
 	"/projects/dancing-shoes.html",
 	"/projects/isshare.html",
 	"/projects/w3c-tool.html",
-	"/projects/hanxu.html",	
+	"/projects/hanxu.html",
 	"/projects/barkcam.html",
 	"/projects/tabularasa.html",
 	"/projects/shapes.html",
+	"/projects/barkpost-app.html",
 ]
 links = {}
 for i,l in enumerate(order):

@@ -38,5 +38,7 @@ curl http://127.0.0.1:5000/projects/hanxu.html -o projects/hanxu.html
 curl http://127.0.0.1:5000/projects/barkcam.html -o projects/barkcam.html
 curl http://127.0.0.1:5000/projects/tabularasa.html -o projects/tabularasa.html
 curl http://127.0.0.1:5000/projects/shapes.html -o projects/shapes.html
+curl http://127.0.0.1:5000/projects/barkcam-stickers.html -o projects/barkcam-stickers.html
+curl http://127.0.0.1:5000/projects/barkpost-app.html -o projects/barkpost-app.html
 
 cp -R source/static/ static/
