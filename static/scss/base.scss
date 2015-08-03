@@ -262,6 +262,9 @@ body {
 @include on-mobile {
 	.work {
 		width: 100%;
+		&.hidden {
+			display: none !important;
+		}
 	}
 }
 .coverImage{

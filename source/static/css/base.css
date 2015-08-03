@@ -239,7 +239,9 @@ body {
     width: 32%; } }
 @media (max-width: 600px) {
   .work {
-    width: 100%; } }
+    width: 100%; }
+    .work.hidden {
+      display: none !important; } }
 .coverImage {
   display: block;
   background-color: white;
