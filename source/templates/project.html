@@ -12,5 +12,21 @@
 		<a class="goBack" href="{{ prev }}"> <--PREVIOUS</a>
 		<a class="goNext" href="{{ next }}"> NEXT--></a>
 	</div>
+
+	<div style="clear:both;"></div>
+	<div class="dottedline" style="margin-bottom:50px;"></div>
+
+	<div class="related works">
+		{% for work in related %}
+		<div class="work tag-all">
+			<a class="coverImage" href="/projects/{{ work.path }}" style="background-image:url('{{ work.image }}')"></a>
+			<a class="projectName" href="projects/{{ work.path }}">{{ work.name }}</a>
+		</div>
+		{% endfor %}
+		<div class="dummywork"></div>
+		<div class="dummywork"></div>
+		<div class="dummywork"></div>
+	</div>
+
 </div>
 {% endblock content %}

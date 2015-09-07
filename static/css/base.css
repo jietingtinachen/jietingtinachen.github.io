@@ -339,10 +339,6 @@ a.projectName {
       font-size: 14px;
       font-style: italic;
       color: #838383; }
-    .project .description .dottedline {
-      height: 0px;
-      border-top: 1px dotted gray;
-      margin: 20px 0; }
     .project .description p {
       font-weight: 300;
       font-size: 14px;
@@ -350,6 +346,11 @@ a.projectName {
       line-height: 1.3em;
       color: #6d6d6d;
       line-height: 1.5em; }
+
+.dottedline {
+  height: 0px;
+  border-top: 1px dotted gray;
+  margin: 20px 0; }
 
 .hamburger {
   display: none; }

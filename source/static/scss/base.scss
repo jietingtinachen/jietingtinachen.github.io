@@ -373,11 +373,6 @@ a.projectName {
 			font-style:italic;
 			color:rgb(131, 131, 131);
 		}
-		.dottedline {
-			height: 0px;
-			border-top: 1px dotted gray;
-			margin: 20px 0;
-		}
 		p {
 			font-weight: 300;
 			font-size: 14px;
@@ -388,6 +383,13 @@ a.projectName {
 		}
 	}
 }
+
+.dottedline {
+	height: 0px;
+	border-top: 1px dotted gray;
+	margin: 20px 0;
+}
+
 
 .hamburger {
 	display: none;
