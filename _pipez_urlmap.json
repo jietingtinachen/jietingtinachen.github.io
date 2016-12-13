@@ -1,0 +1,259 @@
+{
+  "assets": {
+    "about.html": {
+      "path": "about.html",
+      "hash": "6aef833e0bc2733ab3a508d10ab9010e503cc3a59a43fe0ed3a0b048b39af395",
+      "integrity": "sha256-au+DPgvCczqzpQjRCrkBDlA8w6WaQ/4O06CwSLOa85U="
+    },
+    "index.html": {
+      "path": "index.html",
+      "hash": "dd9ecd5f5b36714ea75b1cdae56f376d4f6a41000049bc8aa7843af68b683a9b",
+      "integrity": "sha256-3Z7NX1s2cU6nWxza5W83bU9qQQAASbyKp4Q69otoOps="
+    },
+    "projects/3d2d.html": {
+      "path": "projects/3d2d.html",
+      "hash": "8e5f483f5e12c296c4020c178ce175e2ccb44319f18131e957785d63d92943ba",
+      "integrity": "sha256-jl9IP14SwpbEAgwXjOF14sy0QxnxgTHpV3hdY9kpQ7o="
+    },
+    "projects/barkbuddy.html": {
+      "path": "projects/barkbuddy.html",
+      "hash": "683b63ec3417d1a0e4e3dab10ed788ab2d484773eede1a51702434898ce80f38",
+      "integrity": "sha256-aDtj7DQX0aDk49qxDteIqy1IR3Pu3hpRcCQ0iYzoDzg="
+    },
+    "projects/barkcam-stickers.html": {
+      "path": "projects/barkcam-stickers.html",
+      "hash": "77117ebcc70e3ffaeb85db4e0bee3d7d55f229771c45da1797959d5088f39b7a",
+      "integrity": "sha256-dxF+vMcOP/rrhdtOC+49fVXyKXccRdoXl5WdUIjzm3o="
+    },
+    "projects/barkcam.html": {
+      "path": "projects/barkcam.html",
+      "hash": "44f46449f16a2732ee5e9459f3b48da936caebe247f7568a0ff8b693a0ca00b4",
+      "integrity": "sha256-RPRkSfFqJzLuXpRZ87SNqTbK6+JH91aKD/i2k6DKALQ="
+    },
+    "projects/barkpost-app.html": {
+      "path": "projects/barkpost-app.html",
+      "hash": "6a3dd6140c59aa74308465b81ed7b8222583f9d1ffb81574d88df7935e04b7e5",
+      "integrity": "sha256-aj3WFAxZqnQwhGW4Hte4IiWD+dH/uBV02I33k14Et+U="
+    },
+    "projects/careapp.html": {
+      "path": "projects/careapp.html",
+      "hash": "957f3a70f9cc66037b5a99cf36648d80140d23240610aaff3bd15a836709476c",
+      "integrity": "sha256-lX86cPnMZgN7WpnPNmSNgBQNIyQGEKr/O9Fag2cJR2w="
+    },
+    "projects/clock.html": {
+      "path": "projects/clock.html",
+      "hash": "d64c844909165a193838b41e90bd3653b3df73ab2a62d0f48141ca2b9791e1a2",
+      "integrity": "sha256-1kyESQkWWhk4OLQekL02U7Pfc6sqYtD0gUHKK5eR4aI="
+    },
+    "projects/dancing-shoes.html": {
+      "path": "projects/dancing-shoes.html",
+      "hash": "435f757845aca6ad79a26a3990f8d5da38305732bec65083202c76544c6c982d",
+      "integrity": "sha256-Q191eEWspq15omo5kPjV2jgwVzK+xlCDICx2VExsmC0="
+    },
+    "projects/emotion.html": {
+      "path": "projects/emotion.html",
+      "hash": "8f9e09aa229529e310e4bbdaf99dde250378d5d4870e8bc002e32c5a5b9a7590",
+      "integrity": "sha256-j54JqiKVKeMQ5Lva+Z3eJQN41dSHDovAAuMsWluadZA="
+    },
+    "projects/halloween.html": {
+      "path": "projects/halloween.html",
+      "hash": "4471a94f7c58705ff9a607f3698df22cc1d1d7322e54c9aa3f4fcb012db27b0c",
+      "integrity": "sha256-RHGpT3xYcF/5pgfzaY3yLMHR1zIuVMmqP0/LAS2yeww="
+    },
+    "projects/hanxu.html": {
+      "path": "projects/hanxu.html",
+      "hash": "0d8b0e36da3af33897bad1fc656d96c26adb0443676bd8859e8532e2d5b4ba34",
+      "integrity": "sha256-DYsONto68ziXutH8ZW2WwmrbBENna9iFnoUy4tW0ujQ="
+    },
+    "projects/heartb.html": {
+      "path": "projects/heartb.html",
+      "hash": "2913f7474b81384b3b84498300df54ec68ec4309cc8eec02c8abf4a5ddde72f5",
+      "integrity": "sha256-KRP3R0uBOEs7hEmDAN9U7GjsQwnMjuwCyKv0pd3ecvU="
+    },
+    "projects/horizon-lighting-design.html": {
+      "path": "projects/horizon-lighting-design.html",
+      "hash": "62df67884781a2f0e39aa878fa43fb6666f3e730820ac247feb323e349cbff43",
+      "integrity": "sha256-Yt9niEeBovDjmqh4+kP7Zmbz5zCCCsJH/rMj40nL/0M="
+    },
+    "projects/isshare.html": {
+      "path": "projects/isshare.html",
+      "hash": "cb89061fa7fe904a373f85d885c108248b83372fb8abe059ec134d0cda0af87a",
+      "integrity": "sha256-y4kGH6f+kEo3P4XYhcEIJIuDNy+4q+BZ7BNNDNoK+Ho="
+    },
+    "projects/lemonaid.html": {
+      "path": "projects/lemonaid.html",
+      "hash": "dade80935f8ce9cd57e90cb7346ef0c79dfd5ee1e4346c6fcb10bdc9af910315",
+      "integrity": "sha256-2t6Ak1+M6c1X6Qy3NG7wx539XuHkNGxvyxC9ya+RAxU="
+    },
+    "projects/medusalight.html": {
+      "path": "projects/medusalight.html",
+      "hash": "535e7b7beeb32a29402f2b77eb6d7beb47315ca6cbb4b1399b9a9d87114114ee",
+      "integrity": "sha256-U157e+6zKilALyt3621760cxXKbLtLE5m5qdhxFBFO4="
+    },
+    "projects/motilo.html": {
+      "path": "projects/motilo.html",
+      "hash": "2a71a69c087bf48018e519a1ab9baf5879f0f0149949f72c11f83a8b3bf42c58",
+      "integrity": "sha256-KnGmnAh79IAY5Rmhq5uvWHnw8BSZSfcsEfg6izv0LFg="
+    },
+    "projects/nomorenfl.html": {
+      "path": "projects/nomorenfl.html",
+      "hash": "8d43965bec3bcd981a419be28cf90b0e488dc2c6530fbd8bb5df179e779933dd",
+      "integrity": "sha256-jUOWW+w7zZgaQZvijPkLDkiNwsZTD72Ltd8XnneZM90="
+    },
+    "projects/opentag.html": {
+      "path": "projects/opentag.html",
+      "hash": "4163ec0efcf5bd2b766e0c443ad830d01e7900621b6074c1e15e20745c798442",
+      "integrity": "sha256-QWPsDvz1vSt2bgxEOtgw0B55AGIbYHTB4V4gdFx5hEI="
+    },
+    "projects/podcast.html": {
+      "path": "projects/podcast.html",
+      "hash": "85233db188bfd8a646469de038aac927e50aab55622c81cf1cec8745bfa3fde8",
+      "integrity": "sha256-hSM9sYi/2KZGRp3gOKrJJ+UKq1ViLIHPHOyHRb+j/eg="
+    },
+    "projects/qubit-lab.html": {
+      "path": "projects/qubit-lab.html",
+      "hash": "30e18e4a01fefd3e7b1a1746e717a53f039ac636c89cdd247abdf886382549f2",
+      "integrity": "sha256-MOGOSgH+/T57GhdG5xelPwOaxjbInN0ker34hjglSfI="
+    },
+    "projects/qubit-platform.html": {
+      "path": "projects/qubit-platform.html",
+      "hash": "5bf43af2a40a4c3cc59a6ccd22b552c8df807413edba2c3bc849ba976dd3c774",
+      "integrity": "sha256-W/Q68qQKTDzFmmzNIrVSyN+AdBPtuiw7yEm6l23Tx3Q="
+    },
+    "projects/rammo-jammo.html": {
+      "path": "projects/rammo-jammo.html",
+      "hash": "7263472049461b123a7a53bd5f2217321ecde640fa1a666722f22dae23e7534f",
+      "integrity": "sha256-cmNHIElGGxI6elO9XyIXMh7N5kD6GmZnIvItriPnU08="
+    },
+    "projects/report-ui.html": {
+      "path": "projects/report-ui.html",
+      "hash": "75a63f849711ad41199f0807579e43e67417f783b791af69b9c3fa4679f6f576",
+      "integrity": "sha256-daY/hJcRrUEZnwgHV55D5nQX94O3ka9pucP6Rnn29XY="
+    },
+    "projects/rose.html": {
+      "path": "projects/rose.html",
+      "hash": "ef1e477bc100bc001982afefce0483d4b0b291e0ac2fdd427f1913d47da13ce6",
+      "integrity": "sha256-7x5He8EAvAAZgq/vzgSD1LCykeCsL91CfxkT1H2hPOY="
+    },
+    "projects/running-guinea.html": {
+      "path": "projects/running-guinea.html",
+      "hash": "b124c579b57bb778437a6a2a0eac298d10bea27731a3d96a19d58a16217c09cb",
+      "integrity": "sha256-sSTFebV7t3hDemoqDqwpjRC+oncxo9lqGdWKFiF8Ccs="
+    },
+    "projects/sakura.html": {
+      "path": "projects/sakura.html",
+      "hash": "903f9a60f2162266da06d76bc39b5f17861a29238f2732dfe44cefc527a16599",
+      "integrity": "sha256-kD+aYPIWImbaBtdrw5tfF4YaKSOPJzLf5EzvxSehZZk="
+    },
+    "projects/shapes.html": {
+      "path": "projects/shapes.html",
+      "hash": "6162dd104ce9d942f68a9fb04d8abe9e239df8f85ab2b4d995a0b1788ecdccd9",
+      "integrity": "sha256-YWLdEEzp2UL2ip+wTYq+niOd+PhasrTZlaCxeI7NzNk="
+    },
+    "projects/snowflake.html": {
+      "path": "projects/snowflake.html",
+      "hash": "647e7a0028cc3931b08197fb456467953139a8d1af7f402ad1e663e6ebbb09c4",
+      "integrity": "sha256-ZH56ACjMOTGwgZf7RWRnlTE5qNGvf0Aq0eZj5uu7CcQ="
+    },
+    "projects/tabularasa.html": {
+      "path": "projects/tabularasa.html",
+      "hash": "47bf4481ce80aca338ea9591cb01a86a463173cc84ab3d335a40a47c228385e3",
+      "integrity": "sha256-R79Egc6ArKM46pWRywGoakYxc8yEqz0zWkCkfCKDheM="
+    },
+    "projects/test.html": {
+      "path": "projects/test.html",
+      "hash": "c87dc167c3d22b959bd813286ba83427f1ad8990650f49a139e6644ab5d732d0",
+      "integrity": "sha256-yH3BZ8PSK5Wb2BMoa6g0J/GtiZBlD0mhOeZkSrXXMtA="
+    },
+    "projects/tlor.html": {
+      "path": "projects/tlor.html",
+      "hash": "0e2ff6478a05390cdf4a5212994da710fb0d85c975980b9c08a781a99fd2e495",
+      "integrity": "sha256-Di/2R4oFOQzfSlISmU2nEPsNhcl1mAucCKeBqZ/S5JU="
+    },
+    "projects/tool.html": {
+      "path": "projects/tool.html",
+      "hash": "a966acb9daf09f88f7cc5b4635f84317e5eea7b297c91cfe917cd496f00a337a",
+      "integrity": "sha256-qWasudrwn4j3zFtGNfhDF+Xup7KXyRz+kXzUlvAKM3o="
+    },
+    "projects/tools-website.html": {
+      "path": "projects/tools-website.html",
+      "hash": "c209a934ef0a97861e3398b48b734ac07bab8177c52d2ffe867403019348417b",
+      "integrity": "sha256-wgmpNO8Kl4YeM5i0i3NKwHurgXfFLS/+hnQDAZNIQXs="
+    },
+    "projects/w3c-tool.html": {
+      "path": "projects/w3c-tool.html",
+      "hash": "f02a8fcf3f9a028e77dd9894c736a0e29f1b6feca60c7851d2336314607efbec",
+      "integrity": "sha256-8CqPzz+aAo533ZiUxzag4p8bb+ymDHhR0jNjFGB+++w="
+    },
+    "projects/welcome.html": {
+      "path": "projects/welcome.html",
+      "hash": "003e0e9056b5e815f13acef041bbb064e6695e57ca11c6bfa81a51f4a50f5ab9",
+      "integrity": "sha256-AD4OkFa16BXxOs7wQbuwZOZpXlfKEca/qBpR9KUPWrk="
+    },
+    "static/bg/cute-11.svg": {
+      "path": "static/bg/cute-11.svg",
+      "hash": "",
+      "integrity": ""
+    },
+    "static/bg/favicon.ico": {
+      "path": "static/bg/favicon.ico",
+      "hash": "",
+      "integrity": ""
+    },
+    "static/bg/geometry2.png": {
+      "path": "static/bg/geometry2.png",
+      "hash": "",
+      "integrity": ""
+    },
+    "static/bg/logo.png": {
+      "path": "static/bg/logo.png",
+      "hash": "",
+      "integrity": ""
+    },
+    "static/bg/logo1.png": {
+      "path": "static/bg/logo1.png",
+      "hash": "",
+      "integrity": ""
+    },
+    "static/css/base.css": {
+      "path": "static/css/base.css",
+      "hash": "d4a332cdc53e5efd1c466adefed8cdbc52df6e7d85cb2fb9a13382b453778466",
+      "integrity": "sha256-1KMyzcU+Xv0cRmre/tjNvFLfbn2Fyy+5oTOCtFN3hGY="
+    },
+    "static/css/font-awesome.min.css": {
+      "path": "static/css/font-awesome.min.css",
+      "hash": "",
+      "integrity": ""
+    },
+    "static/fonts/FontAwesome.otf": {
+      "path": "static/fonts/FontAwesome.otf",
+      "hash": "",
+      "integrity": ""
+    },
+    "static/fonts/fontawesome-webfont.eot": {
+      "path": "static/fonts/fontawesome-webfont.eot",
+      "hash": "",
+      "integrity": ""
+    },
+    "static/fonts/fontawesome-webfont.svg": {
+      "path": "static/fonts/fontawesome-webfont.svg",
+      "hash": "",
+      "integrity": ""
+    },
+    "static/fonts/fontawesome-webfont.ttf": {
+      "path": "static/fonts/fontawesome-webfont.ttf",
+      "hash": "",
+      "integrity": ""
+    },
+    "static/fonts/fontawesome-webfont.woff": {
+      "path": "static/fonts/fontawesome-webfont.woff",
+      "hash": "",
+      "integrity": ""
+    },
+    "static/js/jquery-1.11.3.min.js": {
+      "path": "static/js/jquery-1.11.3.min.js",
+      "hash": "",
+      "integrity": ""
+    }
+  }
+}
