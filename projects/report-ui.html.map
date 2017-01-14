@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "report-ui.html",
+  "sourceRoot": "_sources/",
+  "sources": [
+    "foo.scss"
+  ],
+  "names": [],
+  "mappings": ";"
+}
