@@ -39,9 +39,6 @@
 	"projects/report-ui.html"
 	"projects/tlor.html"
 	"projects/careapp.html"
-	"projects/welcome.html"
-	"projects/rose.html"
-	"projects/halloween.html"
 	"projects/clock.html"
 	"projects/sakura.html"
 	"projects/qubit-platform.html"
@@ -136,7 +133,4 @@
 (project 30)
 (project 31)
 (project 32)
-(project 33)
-(project 34)
-(project 35)
 
