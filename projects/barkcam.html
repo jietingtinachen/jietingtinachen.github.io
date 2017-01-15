@@ -15,33 +15,51 @@
 		<link rel="shortcut icon" type="image/ico" href="/static/bg/favicon.ico"/>
 		<link rel="stylesheet" type="text/css" href="/static/css/base.css?1">
 		<link rel="stylesheet" type="text/css" href="/static/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 		<script src="/static/js/jquery-1.11.3.min.js"></script>
 <!--		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,900,300italic' rel='stylesheet' type='text/css'>
 -->
 		<script type="text/javascript">
-			var filter = function(tag){
-				if(tag) {
+			var filter = function(tags){
+				if (tags) {
 					$(".work").addClass('hidden');
-					$(".tag-" + tag).removeClass('hidden');
-					if (location.hash != tag) {
-						location.hash = tag;
+					for (var i = 0; i < tags.length; i++) {
+						var tag = tags[i];
+						$(".tag-" + tag).removeClass('hidden');
+						if (location.hash != tag) {
+							location.hash = tag;
+						}
 					}
+				} else {
+					$(".work").removeClass('hidden');
 				}
 			};
 			$(function(){
 				console.log(location.hash.substring(1));
-				filter(location.hash.substring(1));
+				if (location.hash.substring(1) != "") {
+					filter([ location.hash.substring(1) ]);					
+				}
 			});
 			$(function(){
 				$(".filtertag").click(function(){
-					var tag = $(this).data("tag");
+					var tag = $(this).data("tag").split(" ");
 					filter(tag);
 				});
 				$(".menuitem").click(function(){
 					$('body').removeClass('hamburger-open');
 					setTimeout(function(){
-						filter(location.hash.substring(1));
+						filter([ location.hash.substring(1) ]);
 					},0);
+				});
+			});
+			$(function() {
+				$(window).on('scroll', function(e) { 
+				   var y = $(document).scrollTop();
+				   if (y > 120) {
+				     $("body").addClass("scrolled-down");
+				   } else {
+				     $("body").removeClass("scrolled-down");   
+				   }
 				});
 			});
 		</script>
@@ -50,33 +68,24 @@
 
 	<body class="xhamburger-open">
 		<div class="everything">
-			<div class="frame900">
-				<div class="header">
-					<a href="/" class="logo"><img src="/static/bg/logo1.png">
-					</a>
+			<div class="header">
+				<div class="frame900">
+					<a href="/" class="logo">Jieting Tina Chen</a>
 					<ul class="navi">
 					  <li><a href="/">Work</a></li>
 					  <li><a href="https://dribbble.com/JietingTinaChen">Dribbble</a></li>
-					  <li><a href="http://jietingchen.tumblr.com/">Blog</a></li>
 					  <li><a href="/about.html">About</a></li>
 					</ul>
-					<div class="socialIcons">
-						<a href="https://dribbble.com/JietingTinaChen"><i class="fa fa-dribbble"></i></a>
-						<a href="http://instagram.com/jietingtinachen"<i class="fa fa-instagram"></i></a>
-						<a href="https://www.linkedin.com/in/jietingtinachen"><i class="fa fa-linkedin"></i></a>
-						<a href="https://github.com/jietingtinachen"><i class="fa fa-github-alt"></i></a>
-						<a href="http://jietingchen.tumblr.com/"><i class="fa fa-coffee"></i></a>
-						<a href="http://jieingtinachen.tumblr.com/"><i class="fa fa-pagelines"></i></a>
-	  				</div>
-				</div>
+	  			</div>
+			</div>
+			<div class="frame900">
 				<div class="mobile-header">
 
 					<a class="hamburger-button" onclick="$('body').toggleClass('hamburger-open');">
 						<img class="chipmonk bounceInUp" src="/static/bg/cute-11.svg">
 					</a>
-					<img src="/static/bg/logo1.png">
-<!--					<a href="/" class="logo">
-</a>-->
+					<a href="/" class="logo">Jieting Tina Chen</a>
+					
 				</div>
 
 
@@ -123,6 +132,13 @@
 
 				<div class="footer">
 					© Jieting Tina Chen 2017
+					<div class="socialIcons">
+						<a href="https://dribbble.com/JietingTinaChen"><i class="fa fa-dribbble"></i></a>
+						<a href="http://instagram.com/jietingtinachen"<i class="fa fa-instagram"></i></a>
+						<a href="https://www.linkedin.com/in/jietingtinachen"><i class="fa fa-linkedin"></i></a>
+						<a href="https://github.com/jietingtinachen"><i class="fa fa-github-alt"></i></a>
+						<a href="http://jietingchen.tumblr.com/"><i class="fa fa-coffee"></i></a>
+	  				</div>
 				</div>
 			</div>
 		</div>
