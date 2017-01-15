@@ -19,29 +19,46 @@
 <!--		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,900,300italic' rel='stylesheet' type='text/css'>
 -->
 		<script type="text/javascript">
-			var filter = function(tag){
-				if(tag) {
+			var filter = function(tags){
+				if (tags) {
 					$(".work").addClass('hidden');
-					$(".tag-" + tag).removeClass('hidden');
-					if (location.hash != tag) {
-						location.hash = tag;
+					for (var i = 0; i < tags.length; i++) {
+						var tag = tags[i];
+						$(".tag-" + tag).removeClass('hidden');
+						if (location.hash != tag) {
+							location.hash = tag;
+						}
 					}
+				} else {
+					$(".work").removeClass('hidden');
 				}
 			};
 			$(function(){
 				console.log(location.hash.substring(1));
-				filter(location.hash.substring(1));
+				if (location.hash.substring(1) != "") {
+					filter([ location.hash.substring(1) ]);					
+				}
 			});
 			$(function(){
 				$(".filtertag").click(function(){
-					var tag = $(this).data("tag");
+					var tag = $(this).data("tag").split(" ");
 					filter(tag);
 				});
 				$(".menuitem").click(function(){
 					$('body').removeClass('hamburger-open');
 					setTimeout(function(){
-						filter(location.hash.substring(1));
+						filter([ location.hash.substring(1) ]);
 					},0);
+				});
+			});
+			$(function() {
+				$(window).on('scroll', function(e) { 
+				   var y = $(document).scrollTop();
+				   if (y > 120) {
+				     $("body").addClass("scrolled-down");
+				   } else {
+				     $("body").removeClass("scrolled-down");   
+				   }
 				});
 			});
 		</script>
@@ -50,8 +67,8 @@
 
 	<body class="xhamburger-open">
 		<div class="everything">
-			<div class="frame900">
-				<div class="header">
+			<div class="header">
+				<div class="frame900">
 					<a href="/" class="logo"><img src="/static/bg/logo1.png">
 					</a>
 					<ul class="navi">
@@ -60,15 +77,9 @@
 					  <li><a href="http://jietingchen.tumblr.com/">Blog</a></li>
 					  <li><a href="/about.html">About</a></li>
 					</ul>
-					<div class="socialIcons">
-						<a href="https://dribbble.com/JietingTinaChen"><i class="fa fa-dribbble"></i></a>
-						<a href="http://instagram.com/jietingtinachen"<i class="fa fa-instagram"></i></a>
-						<a href="https://www.linkedin.com/in/jietingtinachen"><i class="fa fa-linkedin"></i></a>
-						<a href="https://github.com/jietingtinachen"><i class="fa fa-github-alt"></i></a>
-						<a href="http://jietingchen.tumblr.com/"><i class="fa fa-coffee"></i></a>
-						<a href="http://jieingtinachen.tumblr.com/"><i class="fa fa-pagelines"></i></a>
-	  				</div>
-				</div>
+	  			</div>
+			</div>
+			<div class="frame900">
 				<div class="mobile-header">
 
 					<a class="hamburger-button" onclick="$('body').toggleClass('hamburger-open');">
@@ -83,12 +94,21 @@
 				<div class="content">
 					<div style="clear:both;"></div>
 					{% block content %}
+
 					{% endblock content %}
 					<div style="clear:both;"></div>
 				</div>
 
 				<div class="footer">
 					© Jieting Tina Chen 2017
+					<div class="socialIcons">
+						<a href="https://dribbble.com/JietingTinaChen"><i class="fa fa-dribbble"></i></a>
+						<a href="http://instagram.com/jietingtinachen"<i class="fa fa-instagram"></i></a>
+						<a href="https://www.linkedin.com/in/jietingtinachen"><i class="fa fa-linkedin"></i></a>
+						<a href="https://github.com/jietingtinachen"><i class="fa fa-github-alt"></i></a>
+						<a href="http://jietingchen.tumblr.com/"><i class="fa fa-coffee"></i></a>
+						<a href="http://jieingtinachen.tumblr.com/"><i class="fa fa-pagelines"></i></a>
+	  				</div>
 				</div>
 			</div>
 		</div>

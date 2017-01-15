@@ -13,9 +13,16 @@ a {
 	color: red;
 }
 
+$header_height: 120px;
+
 /*------------------------------*/
 body {
 	font-family:'Roboto', "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+}
+.everything {
+	@include on-tablet-desktop {
+		padding-top: $header_height;
+	}
 }
 .frame900 {
 	margin: 0 auto; /*(horizatal center align)*/
@@ -28,7 +35,7 @@ body {
 @include on-tablet {
 	.frame900 {
 		max-width: 90%;
-	}
+   	}
 }
 @include on-mobile {
 	.frame900 {
@@ -47,42 +54,47 @@ body {
 @include on-tablet-desktop {
 	.header {
 		$height: 150px;
-		height: auto;
-		text-align: center;
-		margin-top: 70px;
-		margin-bottom: 70px;
+		position: fixed;
+		top: 0;
+    	left: 0;
+		width: 100%;
+		height: $header_height;
+		background: white;
 		.logo {
-			height: 50px;
-			line-height: 50px;
+			height: $header_height;
+			line-height: $header_height;
 			img {
 				display: inline-block;
 				vertical-align: middle;
 			}
 		}
+		.frame900 {
+			position: relative;
+		}
 		.navi {
-			position: static;
-			height: 50px;
-			line-height: 39px;
-			text-align: center;
+			display: inline-block;
+			position: absolute;
+			top: 0;
+			right: 0;
+			height: $header_height;
+			line-height: $header_height;
+			text-align: right;
 			list-style-type: none;
 			margin: 0;
 			padding: 0;
-			right: 0px;
 			vertical-align: middle;
-			display: block;
 		}
 		.navi li {
 			display: inline-block;
 		}
 		.navi li a {
-			height: 50px;
-			line-height: 50px;
+			height: $header_height;
+			line-height: $header_height;
 			padding: 8px 4px 8px 10px;
 			text-decoration: none;
-			font-size: 10px;
-			color: #545454;
-			font-weight: 500;
-			text-transform:uppercase;
+			font-size: 14px;
+			color: #393A39;
+			
 		}
 		.navi li a:hover {
 			color: red;
@@ -93,23 +105,24 @@ body {
 .line {
 	border-top: 1px dotted gray;
 }
-.topTag{
-	height: 30px;
-	width:100%;
-	widows: 100%;
+.topTag {
+	display: block;
+	position: relative;
+    width: 600px;
+    height: $header_height;
+    line-height: $header_height;
+    vertical-align: middle;
+	text-align: center;
+	margin: 0 auto;
 
-	display:inline-block;
 	@media (max-width: 600px) {
 		margin-top:0px;
 	}
 }
-.topTag li{
-	float:left;
+.topTag li {
+	display: inline-block;
 	list-style-type: none;
-	margin-top:5px;
-	color: #2f2f2f;
-	padding: 0 9px 0 0;
-	font-style:italic;
+	color: #A3A3A3;
 	font-size: 13px;
 }
 .topTag li a {
@@ -117,8 +130,9 @@ body {
 	font-weight:100;
 	text-decoration: none;
 	color: #545454;
-	font-style:italic;
+	text-transform: uppercase;
 	cursor: pointer;
+	padding: 0px 10px;
 
 	@media (max-width: 600px) {
 		display: none;
@@ -127,6 +141,17 @@ body {
 }
 .topTag li a:hover{
 	color: red;
+}
+body.scrolled-down {
+	.topTag {
+	    position: fixed;
+	    top: 0;
+        left: 50%;
+	    margin-left: -300px;
+	}
+	.works {
+		padding-top: $header_height;
+	}
 }
 .socialIcons {
 
@@ -293,11 +318,27 @@ a.projectName {
 	}
 }
 .footer{
+	height: 160px;
 	border-top: 1px dotted gray;
-	padding: 15px 16px 15px 16px;
+	padding-top: 16px;
 	font-size: 13px;
 	font-weight: 300;
 	display: block;
+	position: relative;
+	@include on-mobile {
+//		padding-top: 60px;
+		text-align: center;
+	}
+
+	.socialIcons {
+		display: inline-block;
+		position: absolute;
+		right: 0;
+		top: 16px;
+		@include on-mobile {
+			display: none;
+		}
+	}
 }
 
 /*----------project page--------------------*/
