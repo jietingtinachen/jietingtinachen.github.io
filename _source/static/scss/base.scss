@@ -61,12 +61,11 @@ body {
 		height: $header_height;
 		background: white;
 		.logo {
+			font-family: 'Pacifico', cursive;
 			height: $header_height;
 			line-height: $header_height;
-			img {
-				display: inline-block;
-				vertical-align: middle;
-			}
+			font-size: 26px;
+    		color: #1E1E1E;
 		}
 		.frame900 {
 			position: relative;
@@ -104,6 +103,22 @@ body {
 }
 .line {
 	border-top: 1px dotted gray;
+}
+.topCopy{
+	text-align: center;
+    font-size: 24px;
+    max-width: 694px;
+    margin: 0 auto;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: #4A4A4A;
+    display: block;
+    padding: 30px 0;
+    @media (max-width: 600px) {
+		margin-top: 0px;
+    	font-size: 16px;
+    	padding: 54px 25px;
+	}
 }
 .topTag {
 	display: block;
@@ -307,9 +322,9 @@ body.scrolled-down {
 }
 a.projectName {
 	text-align:center;
-	font-weight: 400;
+	font-weight: 100;
 	font-size: 14px;
-	color:#5A5A5A;
+	color:#545454;
 	margin-top:16px;
 	display: inline-block;
 	width: 100%;
@@ -464,12 +479,12 @@ a.projectName {
 		text-align: center;
 		line-height: 66px;
 		box-shadow: 0 0 2px rgba(0,0,0,0.2);
-		a, img {
+		a {
 			vertical-align: middle;
 			line-height: 66px;
-		}
-		img {
-			height: 35px;
+		    font-family: 'Pacifico', cursive;
+   			font-size: 24px;
+    		color: #1E1E1E;
 		}
 	}
 	.hamburger-open {
