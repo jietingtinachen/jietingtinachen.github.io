@@ -39,15 +39,12 @@
 	"projects/report-ui.html"
 	"projects/tlor.html"
 	"projects/careapp.html"
-	"projects/clock.html"
-	"projects/sakura.html"
+	"projects/art.html"
 	"projects/qubit-platform.html"
 	"projects/rammo-jammo.html"
 	"projects/running-guinea.html"
 	"projects/qubit-lab.html"
-	"projects/motilo.html"
 	"projects/podcast.html"
-	"projects/tools-website.html"
 	"projects/tool.html"
 	"projects/opentag.html"
 	"projects/emotion.html"
@@ -128,8 +125,3 @@
 (project 26)
 (project 27)
 (project 28)
-(project 29)
-(project 30)
-(project 31)
-
-
