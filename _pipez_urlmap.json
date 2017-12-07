@@ -2,148 +2,148 @@
   "assets": {
     "about.html": {
       "path": "about.html",
-      "hash": "df541c4d98c12449dc085764332cba1bfd0fdbd91a2bf86090f46b0d8fa6617b",
-      "integrity": "sha256-31QcTZjBJEncCFdkMyy6G/0P29kaK/hgkPRrDY+mYXs="
+      "hash": "2a8d548c6c2e9a899beb0599ac0b6f5c3e8e69752bed60b94b4c44fedb926551",
+      "integrity": "sha256-Ko1UjGwumomb6wWZrAtvXD6OaXUr7WC5S0xE/tuSZVE="
     },
     "index.html": {
       "path": "index.html",
-      "hash": "0465568a995f7436f434fa28f44e0f7d81786383225babefef587a2759c6e292",
-      "integrity": "sha256-BGVWiplfdDb0NPoo9E4PfYF4Y4MiW6vv71h6J1nG4pI="
+      "hash": "24a68582da1745ceb2036bdcad52b0e0a24678960c8e7a5c4773b1a231d9e481",
+      "integrity": "sha256-JKaFgtoXRc6yA2vcrVKw4KJGeJYMjnpcR3OxojHZ5IE="
     },
     "projects/3d2d.html": {
       "path": "projects/3d2d.html",
-      "hash": "7e9efe1f4f79f3f59b48116ae397e1d228f4ef2a6470c8ef0b2f7d0f709ec511",
-      "integrity": "sha256-fp7+H0958/WbSBFq45fh0ij07ypkcMjvCy99D3CexRE="
+      "hash": "b786ae88a5265ecfe42b3f10ef68adf4f267792b11f6191c4156c462824b434a",
+      "integrity": "sha256-t4auiKUmXs/kKz8Q72it9PJneSsR9hkcQVbEYoJLQ0o="
     },
     "projects/barkbuddy.html": {
       "path": "projects/barkbuddy.html",
-      "hash": "ea2403351a206a7bfed1b1e543fe9229f2500e1cc8cc57c2b53e6d12d6428087",
-      "integrity": "sha256-6iQDNRoganv+0bHlQ/6SKfJQDhzIzFfCtT5tEtZCgIc="
+      "hash": "58ef7febfaa714a7eb201cf4733e6550519fba3812b4d0b1d5634fe859168dde",
+      "integrity": "sha256-WO9/6/qnFKfrIBz0cz5lUFGfujgStNCx1WNP6FkWjd4="
     },
     "projects/barkcam-stickers.html": {
       "path": "projects/barkcam-stickers.html",
-      "hash": "f38b2449b0e7d8aa7818a138c41b7eb92760d9f40faca45b95948ebc6eca1ecc",
-      "integrity": "sha256-84skSbDn2Kp4GKE4xBt+uSdg2fQPrKRblZSOvG7KHsw="
+      "hash": "fcf91de04e6401ff52f35f93a6ff919fecb3c2b13457afe28957973d96031e9c",
+      "integrity": "sha256-/Pkd4E5kAf9S81+Tpv+Rn+yzwrE0V6/iiVeXPZYDHpw="
     },
     "projects/barkcam.html": {
       "path": "projects/barkcam.html",
-      "hash": "3fc0b3a876dc1de50b910c18531229357803c2688e953686c537b606cd74129d",
-      "integrity": "sha256-P8CzqHbcHeULkQwYUxIpNXgDwmiOlTaGxTe2Bs10Ep0="
+      "hash": "a6cd2a99a616f4f3568d5d20e66e5511a3b3204bb58748dea38dfbf7bdf01a62",
+      "integrity": "sha256-ps0qmaYW9PNWjV0g5m5VEaOzIEu1h0jeo437973wGmI="
     },
     "projects/barkpost-app.html": {
       "path": "projects/barkpost-app.html",
-      "hash": "5c2a621d0e3cab190943988d7f0f1459690fd4cab3e33408944d0b74cf80822e",
-      "integrity": "sha256-XCpiHQ48qxkJQ5iNfw8UWWkP1Mqz4zQIlE0LdM+Agi4="
+      "hash": "7dd5717a5f173813d90e3f588db93c77d907579ea5d96ed16edebb36614ecbe5",
+      "integrity": "sha256-fdVxel8XOBPZDj9Yjbk8d9kHV56l2W7Rbt67NmFOy+U="
     },
     "projects/careapp.html": {
       "path": "projects/careapp.html",
-      "hash": "f0bdd5bb6a5c87d1f01de6661b09c138fb33c01d4bd4a2a65744fd8c395bde19",
-      "integrity": "sha256-8L3Vu2pch9HwHeZmGwnBOPszwB1L1KKmV0T9jDlb3hk="
+      "hash": "25d10ba9cbc45c71fa3986f010656877c1ea31713dc0c84ca58231824ffaae2c",
+      "integrity": "sha256-JdELqcvEXHH6OYbwEGVod8HqMXE9wMhMpYIxgk/6riw="
     },
     "projects/dancing-shoes.html": {
       "path": "projects/dancing-shoes.html",
-      "hash": "0a54830a62b789395fae0ffb8bab8293e059b47d21761b33209193cea88975e6",
-      "integrity": "sha256-ClSDCmK3iTlfrg/7i6uCk+BZtH0hdhszIJGTzqiJdeY="
+      "hash": "845c6bf5ad415208ff69f7042d45b67554ccea28e58a15d7757e89c6e182a903",
+      "integrity": "sha256-hFxr9a1BUgj/afcELUW2dVTM6ijlihXXdX6JxuGCqQM="
     },
     "projects/emotion.html": {
       "path": "projects/emotion.html",
-      "hash": "218cf2cd784775f9c74228d65cdcf2cf4706ee070d26ef6a2aeb3abe10b8d526",
-      "integrity": "sha256-IYzyzXhHdfnHQijWXNzyz0cG7gcNJu9qKus6vhC41SY="
+      "hash": "6712981e0e13d227ff3017dd3cf8404da6e299b8fc6cd9f1c7c474901c3504e1",
+      "integrity": "sha256-ZxKYHg4T0if/MBfdPPhATabimbj8bNnxx8R0kBw1BOE="
     },
     "projects/heartb.html": {
       "path": "projects/heartb.html",
-      "hash": "d3f34d9ec1af49529c0d49dbc9ff7f8f7e1916f266276d0d96492dbb721cbf1f",
-      "integrity": "sha256-0/NNnsGvSVKcDUnbyf9/j34ZFvJmJ20Nlkktu3Icvx8="
+      "hash": "a3f58537786b007c0a0759c7048d7299971a03fed254f86e9edcd0b496f765ab",
+      "integrity": "sha256-o/WFN3hrAHwKB1nHBI1ymZcaA/7SVPhuntzQtJb3Zas="
     },
     "projects/horizon-lighting-design.html": {
       "path": "projects/horizon-lighting-design.html",
-      "hash": "42d239899253ffe12675d0ebf6c5bf2b95482e135d4f875dfc8569b3957db793",
-      "integrity": "sha256-QtI5iZJT/+EmddDr9sW/K5VILhNdT4dd/IVps5V9t5M="
+      "hash": "9062d84cb2c641ae06dc911430671b39147b0c108ebbb7cc6efe9cead006eec7",
+      "integrity": "sha256-kGLYTLLGQa4G3JEUMGcbORR7DBCOu7fMbv6c6tAG7sc="
     },
     "projects/isshare.html": {
       "path": "projects/isshare.html",
-      "hash": "bf9ab0796ba8aa6317393bb47b6ec2fd8a78959c7b2719df6bc82b099a959d4e",
-      "integrity": "sha256-v5qweWuoqmMXOTu0e27C/Yp4lZx7Jxnfa8grCZqVnU4="
+      "hash": "77bf916656a14c2b88210f8221f7f6eba55ff6bf80428a7334be958b952197fa",
+      "integrity": "sha256-d7+RZlahTCuIIQ+CIff266Vf9r+AQopzNL6Vi5Uhl/o="
     },
     "projects/lemonaid.html": {
       "path": "projects/lemonaid.html",
-      "hash": "4de5eb05eb6addc53d13bdd661771f6d4a6626ae9de370a26f6cc08238bd1109",
-      "integrity": "sha256-TeXrBetq3cU9E73WYXcfbUpmJq6d43Cib2zAgji9EQk="
+      "hash": "38686922e2fec78b8d40a7e7307e7d90cc86cefdd114b549d30b5b7b0e4c13a4",
+      "integrity": "sha256-OGhpIuL+x4uNQKfnMH59kMyGzv3RFLVJ0wtbew5ME6Q="
     },
     "projects/medusalight.html": {
       "path": "projects/medusalight.html",
-      "hash": "44e18be01098ee0056a71db61eb976ddd0f5563a6b0c28cd6e521e2d8e8b3743",
-      "integrity": "sha256-ROGL4BCY7gBWpx22Hrl23dD1VjprDCjNblIeLY6LN0M="
+      "hash": "6ade0f8d4e2ecfeb8dfe15851a7b77674fcbe02a1e6284cf7972dd496193a03f",
+      "integrity": "sha256-at4PjU4uz+uN/hWFGnt3Z0/L4CoeYoTPeXLdSWGToD8="
     },
     "projects/nomorenfl.html": {
       "path": "projects/nomorenfl.html",
-      "hash": "14f1ecc179b0919a0c0c4df9e3fd3513a4b697bc50d235e70eb04788999eb84c",
-      "integrity": "sha256-FPHswXmwkZoMDE354/01E6S2l7xQ0jXnDrBHiJmeuEw="
+      "hash": "e2dd4b66e31f3e11f2b07c21dcb981e7115940848545c6a0891b1cb08a16240d",
+      "integrity": "sha256-4t1LZuMfPhHysHwh3LmB5xFZQISFRcagiRscsIoWJA0="
     },
     "projects/opentag.html": {
       "path": "projects/opentag.html",
-      "hash": "18dde1bd5d4848122b2cb017ea97308cb1f1378723a123f8d54c026d6b0414cf",
-      "integrity": "sha256-GN3hvV1ISBIrLLAX6pcwjLHxN4cjoSP41UwCbWsEFM8="
+      "hash": "fca0b4e4da09dfb79d4950839be38fc89e3822d3f5b1a2744cd3f58dae8b9204",
+      "integrity": "sha256-/KC05NoJ37edSVCDm+OPyJ44ItP1saJ0TNP1ja6LkgQ="
     },
     "projects/podcast.html": {
       "path": "projects/podcast.html",
-      "hash": "9512e588d8aea8a33585e6d9876143dd5265c6b8b83c514c9fd248eb1729d352",
-      "integrity": "sha256-lRLliNiuqKM1hebZh2FD3VJlxri4PFFMn9JI6xcp01I="
+      "hash": "8530bde83d3bb3ff29190d95de5b20ae114e5a28388c61ba53df94e8320e4c6d",
+      "integrity": "sha256-hTC96D07s/8pGQ2V3lsgrhFOWig4jGG6U9+U6DIOTG0="
     },
     "projects/qubit-lab.html": {
       "path": "projects/qubit-lab.html",
-      "hash": "d4b508378fe7db2d34a77d6242d9df8cf46023683c74ae69161d5ebb319fcbb4",
-      "integrity": "sha256-1LUIN4/n2y00p31iQtnfjPRgI2g8dK5pFh1euzGfy7Q="
+      "hash": "cbc14ea00b9846dba61ba1a81b5a1f4edab73a7d5d64309aae739dcbc96b2de5",
+      "integrity": "sha256-y8FOoAuYRtumG6GoG1ofTtq3On1dZDCarnOdy8lrLeU="
     },
     "projects/qubit-platform.html": {
       "path": "projects/qubit-platform.html",
-      "hash": "19549b6d30a46948d750ffb153b411914e061d8297267000e02a05a30a225804",
-      "integrity": "sha256-GVSbbTCkaUjXUP+xU7QRkU4GHYKXJnAA4CoFowoiWAQ="
+      "hash": "87cb0be12b1040405dc0b12f8e68bc89879cd1d58562cc4b114ea32d37232913",
+      "integrity": "sha256-h8sL4SsQQEBdwLEvjmi8iYec0dWFYsxLEU6jLTcjKRM="
     },
     "projects/rammo-jammo.html": {
       "path": "projects/rammo-jammo.html",
-      "hash": "8be1d578a01e280a36571e474b126c6761e4d917a9760d61bad14bd56e93ac1e",
-      "integrity": "sha256-i+HVeKAeKAo2Vx5HSxJsZ2Hk2Repdg1hutFL1W6TrB4="
+      "hash": "538d28c2e82e371ad0a1e1420d06c9fb29a57347018663fbfeefeabca199e6e3",
+      "integrity": "sha256-U40owuguNxrQoeFCDQbJ+ymlc0cBhmP7/u/qvKGZ5uM="
     },
     "projects/report-ui.html": {
       "path": "projects/report-ui.html",
-      "hash": "90fcc2ecec9809b75a1481bdd9a0d3d89b75737b4cd2efe21263f75ac3314d03",
-      "integrity": "sha256-kPzC7OyYCbdaFIG92aDT2Jt1c3tM0u/iEmP3WsMxTQM="
+      "hash": "be1fba0412a6ccc3ad98e103884cacf8b68a17f9b61714d6d5d815dc55fded12",
+      "integrity": "sha256-vh+6BBKmzMOtmOEDiEys+LaKF/m2FxTW1dgV3FX97RI="
     },
     "projects/running-guinea.html": {
       "path": "projects/running-guinea.html",
-      "hash": "fdba923612a46f54d74122680ce41890c8ef818e95f36073a0a884349186ef39",
-      "integrity": "sha256-/bqSNhKkb1TXQSJoDOQYkMjvgY6V82BzoKiENJGG7zk="
+      "hash": "5b4b2346dae38eb0a77dd720ff4737f779a2281c14ea015b14ef2df09a3724fe",
+      "integrity": "sha256-W0sjRtrjjrCnfdcg/0c393miKBwU6gFbFO8t8Jo3JP4="
     },
     "projects/shapes.html": {
       "path": "projects/shapes.html",
-      "hash": "2129a93b4f6dcaf01f42146276fb42a70ba0dfce38aefe011272efcd433c71ed",
-      "integrity": "sha256-ISmpO09tyvAfQhRidvtCpwug3844rv4BEnLvzUM8ce0="
+      "hash": "137cae079b8aa2108cc00bb677ea0585743e2207057ebc856377948fdeb9fa35",
+      "integrity": "sha256-E3yuB5uKohCMwAu2d+oFhXQ+IgcFfryFY3eUj965+jU="
     },
     "projects/snowflake.html": {
       "path": "projects/snowflake.html",
-      "hash": "a73aaea85c8f3f3153061e9e8f58caf1836514d7dc466846698af939e77c01d7",
-      "integrity": "sha256-pzquqFyPPzFTBh6ej1jK8YNlFNfcRmhGaYr5Oed8Adc="
+      "hash": "4eeed42a641736989127f07d37c0e1ea81291a241e683dd10bbf4e1d8ec350c5",
+      "integrity": "sha256-Tu7UKmQXNpiRJ/B9N8Dh6oEpGiQeaD3RC79OHY7DUMU="
     },
     "projects/tabularasa.html": {
       "path": "projects/tabularasa.html",
-      "hash": "23af84bd433f8fed7cc7698d943bb6c42efd78a9f4b7061ac2b7f92131e88e04",
-      "integrity": "sha256-I6+EvUM/j+18x2mNlDu2xC79eKn0twYawrf5ITHojgQ="
+      "hash": "a20922bd5e445c07a3f747fdb50c5de1dcd19c573592699357149038e16a3345",
+      "integrity": "sha256-ogkivV5EXAej90f9tQxd4dzRnFc1kmmTVxSQOOFqM0U="
     },
     "projects/tlor.html": {
       "path": "projects/tlor.html",
-      "hash": "bc604db882ad67e844d633fe6c28da9f3ce4b376ac535a6a8f054a0289c37088",
-      "integrity": "sha256-vGBNuIKtZ+hE1jP+bCjanzzks3asU1pqjwVKAonDcIg="
+      "hash": "1f4240552db170e979369d05a68b06cd26aeff0136f1241953c43f25322f9db9",
+      "integrity": "sha256-H0JAVS2xcOl5Np0FposGzSau/wE28SQZU8Q/JTIvnbk="
     },
     "projects/tool.html": {
       "path": "projects/tool.html",
-      "hash": "c6ea8364287f1ad176e4b5958b498a1931e1ad80e38a689fce833c2a0d556e1d",
-      "integrity": "sha256-xuqDZCh/GtF25LWVi0mKGTHhrYDjimifzoM8Kg1Vbh0="
+      "hash": "04937810624560f15686187852f06ad91cfa1a68ade851f24b8326573c4ab8d1",
+      "integrity": "sha256-BJN4EGJFYPFWhhh4UvBq2Rz6Gmit6FHyS4MmVzxKuNE="
     },
     "projects/w3c-tool.html": {
       "path": "projects/w3c-tool.html",
-      "hash": "13b8da8368c3f90163b9fe77dcbd768e4ac5a56b9fadf9f3313ecc203950308a",
-      "integrity": "sha256-E7jag2jD+QFjuf533L12jkrFpWufrfnzMT7MIDlQMIo="
+      "hash": "7bf5179085f771e3056a3c9b3d2ea5820af4c1ab87be164039bce0a500ddc251",
+      "integrity": "sha256-e/UXkIX3ceMFajybPS6lggr0wauHvhZAObzgpQDdwlE="
     },
     "static/bg/cute-11.svg": {
       "path": "static/bg/cute-11.svg",
