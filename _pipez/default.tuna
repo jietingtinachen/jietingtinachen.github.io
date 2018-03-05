@@ -39,7 +39,7 @@
 	"projects/report-ui.html"
 	"projects/tlor.html"
 	"projects/careapp.html"
-;	"projects/art.html"
+	"projects/art.html"
 	"projects/qubit-platform.html"
 	"projects/rammo-jammo.html"
 	"projects/running-guinea.html"
@@ -60,7 +60,7 @@
 	"projects/dancing-shoes.html"
 	"projects/isshare.html"
 	"projects/w3c-tool.html"
-;	"projects/hanxu.html"
+	"projects/hanxu.html"
 	"projects/barkcam.html"
 	"projects/tabularasa.html"
 	"projects/shapes.html"
@@ -78,6 +78,8 @@
 			(source (str "templates/" (projects i))))))
 
 (copy "static/bg/cute-11.svg")
+(copy "static/bg/ttj-hero.jpg")
+(copy "static/bg/author.jpg")
 (copy "static/bg/logo1.png")
 (copy "static/bg/favicon.ico")
 (copy "static/bg/geometry2.png")
@@ -95,6 +97,8 @@
 
 (page "index.html")
 (page "about.html")
+(page "tinytraveljournal.html")
+(page "tinytraveljournalzw.html")
 
 (project 0)
 (project 1)
@@ -123,5 +127,5 @@
 (project 24)
 (project 25)
 (project 26)
-;(project 27)
-;(project 28)
+(project 27)
+(project 28)
