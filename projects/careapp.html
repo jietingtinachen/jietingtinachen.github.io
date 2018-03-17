@@ -35,12 +35,6 @@
 				}
 			};
 			$(function(){
-				console.log(location.hash.substring(1));
-				if (location.hash.substring(1) != "") {
-					filter([ location.hash.substring(1) ]);
-				}
-			});
-			$(function(){
 				$(".filtertag").click(function(){
 					var tag = $(this).data("tag").split(" ");
 					filter(tag);
