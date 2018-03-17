@@ -35,12 +35,6 @@
 				}
 			};
 			$(function(){
-				console.log(location.hash.substring(1));
-				if (location.hash.substring(1) != "") {
-					filter([ location.hash.substring(1) ]);
-				}
-			});
-			$(function(){
 				$(".filtertag").click(function(){
 					var tag = $(this).data("tag").split(" ");
 					filter(tag);
@@ -346,6 +340,20 @@
 	<div class="dummywork"></div>
 	<div class="dummywork"></div>
 	<div class="dummywork"></div>
+  <script>
+  $(function(){
+    console.log(location.hash);
+    if (location.hash.length > 1) {
+      if (location.hash.substring(1) != "") {
+        filter([ location.hash.substring(1) ]);
+        return;
+      }
+    }
+    filter(['ui']);
+
+  });
+  </script>
+
 </div>
 
 					<div style="clear:both;"></div>

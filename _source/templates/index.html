@@ -254,5 +254,19 @@
 	<div class="dummywork"></div>
 	<div class="dummywork"></div>
 	<div class="dummywork"></div>
+  <script>
+  $(function(){
+    console.log(location.hash);
+    if (location.hash.length > 1) {
+      if (location.hash.substring(1) != "") {
+        filter([ location.hash.substring(1) ]);
+        return;
+      }
+    }
+    filter(['ui']);
+
+  });
+  </script>
+
 </div>
 {% endblock content %}
