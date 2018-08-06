@@ -98,7 +98,7 @@
 (page "index.html")
 (page "about.html")
 (page "tinytraveljournal.html")
-(page "tinytraveljournalzw.html")
+(page "tinytraveljournal.html")
 
 (project 0)
 (project 1)
